@@ -1,0 +1,33 @@
+header, footer{
+    
+        background-image: radial-gradient(#C9263D,#521717);
+        color:black;
+        text-shadow: 0px 3px 3px #ed3333;
+        text-align: center;
+        padding: 2rem;
+    
+    }
+    .navigation a:hover {
+        background-color: #464646;
+        color: black;
+        transform: scale(1.2);
+      }
+      .navigation a.active {
+        background-color: #4d130f;
+        color: white;
+      }
+img{
+    background-image: linear-gradient(#521717, #C9263D);
+}
+p{
+    color:#000000;
+    text-shadow: #f43232 0px 0px 3px;
+    
+}
+.body{
+    background-color: rgb(200, 192, 192) ;
+}
+.rightSide{
+    background-color: rgb(193, 165, 165);
+
+}
