@@ -52,7 +52,7 @@ float: right;
    
     
 }
-@media(max-width:500px){
+@media all and (min-width:400px) and (max-width:600px){
     .navigation{
         display: flex;
         justify-content: space-around;
@@ -60,17 +60,18 @@ float: right;
     }
     .header{
         display: flex;
-        justify-content: baseline;
+        
     }
     
     .rightSide{
         display: flex;
-        align-items: center;
-        width: 412px;
-        max-height: fit-content;
+        flex-direction: row;
+        
         justify-content: space-around;
+        float: inline-start;
+        max-width: fit-content;
         img{
-            max-width: 150px;
+            max-width: 50%;
             
         }
         
@@ -79,9 +80,10 @@ float: right;
         }
     .body{
         display: flex;
-        align-items: stretch;
-        flex-wrap: wrap;
-        justify-content: flex-end;
+        
+        
+        
+        
         p{
             padding: 1px;
         }
